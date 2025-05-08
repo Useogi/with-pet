@@ -1,0 +1,7 @@
+/* Story of Bela */
+@font-face {
+    font-family: 'Story of Bela'; /* 원하는 이름 지정 */
+    src: url('./StoryofBela.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
