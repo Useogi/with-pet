@@ -80,6 +80,9 @@ nav>ul>li>a:hover{
     transform: scale(1.1);
     border-bottom: 3px solid #CFBC94; 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 /* section01 ---------- */
