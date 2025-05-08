@@ -92,6 +92,13 @@ nav>ul>li>a:hover{
     background-position: center;
     color: black;
 }
+/* 모바일용 배경 이미지 적용 */
+@media screen and (max-width: 1400px) {
+    #section01 {
+        background-image: url(../img/02.section01/main\ bg\ 1400px.png); /* 모바일용 이미지 경로 */
+        background-position: center center; /* 필요시 수정 */
+    }
+}
 .section01_inner {
     /* box의 위치를 고정시키기 위한 inner */
     width: 1920px;
@@ -259,7 +266,7 @@ nav>ul>li>a:hover{
     margin: 0 auto;
 }
 .section02_list{
-    width: 637px;
+    width: 620px;
     height: 358px;
     box-sizing: border-box;
     padding-top: 95px;
@@ -1519,6 +1526,13 @@ nav>ul>li>a:hover{
 
     padding-top: 220px;
 }
+/* 모바일용 배경 이미지 적용 */
+@media screen and (max-width: 1400px) {
+    .section09_inner {
+        background-image: url(../img/13.section09/bg\ 1400px.png); /* 모바일용 이미지 경로 */
+        background-position: center center; /* 필요시 수정 */
+    }
+}
 .sect09_hover{
     text-align: center;
 }
@@ -1547,7 +1561,7 @@ nav>ul>li>a:hover{
 /* footer ---------- */
 footer{
     min-width: 1400px;
-    height: 350px;
+    height: 230px;
     background-color: #CFBC94;
 }
 .footer_inner{
@@ -1567,8 +1581,8 @@ footer{
 }
 .foo_box01 img{
     display: block;
-    width: 250px;
-    height: 150px
+    width: 150px;
+    height: 90px
 }
 /* box02 */
 .foo_box02 p{
@@ -1635,7 +1649,7 @@ footer{
     margin-top: 5px;
 }
 .foo_box03 h1{
-    font-size: 28px;
+    font-size: 22px;
     color: #fff;
 }
 .down p{
