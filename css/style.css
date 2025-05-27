@@ -22,7 +22,6 @@ body{
 header{
     min-width: 1400px;
     height: 100px;
-    /* background-color: aqua; */
 }
 #head_in{
     width: 1320px;
@@ -1122,7 +1121,7 @@ html{
     cursor: pointer;
 }
 .sect07_box h1{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -1130,7 +1129,7 @@ html{
     margin-bottom: 15px;
 }
 .sect07_box h2{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -1183,8 +1182,8 @@ html{
     justify-content: center; /* x축 중앙 정렬 */
     align-items: center;     /* y축 중앙 정렬 */
 }
-.sect07_box_bot_l a{
-    color: black;
+.sect07_box_bot a{
+    color: #4A4A4A;
     font-size: 14px;
     font-weight: 500;
 }
@@ -1326,6 +1325,7 @@ html{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 110px;
 }
 .sect08_box02_r a{
     display: inline-block;
@@ -1564,8 +1564,9 @@ html{
 /* footer ---------- */
 footer{
     min-width: 1400px;
-    height: 230px;
+    height: 220px;
     background-color: #CFBC94;
+    padding-bottom: 60px;
 }
 .footer_inner{
     width: 1320px;
@@ -1635,7 +1636,6 @@ footer{
     width: 30px;
     height: 30px;   
 }
-
 .apple{
     width: 20px;
     height: 20px;
@@ -1676,21 +1676,6 @@ footer{
     gap: 10px;
     z-index: 999;
 }
-/* .scroll-buttons button{
-    padding: 10px 15px;
-    font-size: 16px;
-    background-color: #a98e62;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-family: 'Super Lobster';   
-}
-.scroll-buttons button:hover{
-    background-color: #634e42;
-} */
-
 .scroll-buttons button{
     padding: 10px 15px;
     font-size: 16px;
